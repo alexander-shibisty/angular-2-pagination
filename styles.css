@@ -1,0 +1,32 @@
+/* Master Styles */
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+body {
+  margin: 2em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+  color: #000;
+  background-color: #ddd;
+  float: left;
+  cursor: pointer;
+  padding: 5px;
+}
+.active {
+  background-color: #000;
+  color: #fff;}
